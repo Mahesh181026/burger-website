@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* font-family: 'Poppins', sans-serif; */
+}
+header{
+    width: 100%;
+    height: auto;
+    background: url(..//images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    /* border: 2px solid darkcyan; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    margin: 0 48px;
+}
+.logo img{
+    margin-top: -17px;
+}
+.logo span{
+    font-size: 2rem;
+    font-weight: bold;
+    vertical-align: top;
+    color: #3d2514;
+    letter-spacing: -7px;
+    word-spacing: 8px;
+}
+.navlinks{
+    margin: 12px 0px;
+}
+.navlinks .lists{
+    padding: 24px 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.lists ul {
+display: flex;
+}
+.lists ul li{
+    list-style: none;
+}
+.navlinks .lists ul a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #3d2514;
+}
+.navlinks .icon{
+    text-align: end;
+    animation: shake .9s cubic-bezier(.36,.07,.19,.97) infinite;
+    transform: translate3d(0,0,0);
+   
+}
+.navlinks .icon img{
+    margin-right: 15px;
+}
+.navlinks .icon span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3d2514;
+}
+.fa-solid{
+    display: none;
+    font-size: 45px;
+}
+
+@media (max-width:947px){
+    .lists{
+        display: none;
+        
+    }
+.icon{
+        display: none;
+    }
+    .fa-solid{
+        display: block;
+    }
+}
+
+
+/* @media (max-width:1075px){
+    .navlinks .lists{
+        padding: 12px 0px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .navlinks .lists ul a{
+        padding-left: 20px;
+        color: #3d2514;
+    }
+    .logo span{
+        font-size: 2rem;
+        font-weight: bold;
+        vertical-align: top;
+        color: #3d2514;
+        letter-spacing: -7px;
+        word-spacing: 8px;
+    }
+} */
+/*----------------------------------header ends here---------------------------*/
+/* ------------------------------------section.special starts here ------------*/
+
+
+.special{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    background: url(..//images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* padding: 0px 12px 12px 12px; */
+    padding: 0px 44px;
+}
+.image1{
+    width: 50%;
+}
+.image1 img{
+    width: 100%;
+}
+.para1{
+    /* border: 2px solid darkmagenta; */
+    width: 50%;
+    color: #3d2514;
+    padding-top: 100px;
+}
+.para1 p{
+    display: inline;
+    border: 3px dotted black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 35px 12px 0px;
+    line-height: 3.5rem;
+    letter-spacing: -2px;
+    word-spacing: 4px;
+    
+}
+.para1 h1{
+    font-size: 5.2rem;
+    font-weight: bold;
+    text-shadow: 4px 5px #fee7ba;
+}
+.para1 h2{
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-shadow: 0px 3px #fff;
+}
+/* @media (max-width:1075px){
+    .para1 p{
+        font-size: 10px;
+        font-weight: bold;
+        padding: 6px 18px 6px 0px;
+        line-height: 1.7rem;
+        letter-spacing: 0px;
+        
+    }
+    .para1 h1{
+        font-size: 4.1rem;
+        font-weight: bold;
+        text-shadow: 2px 2.5px #fee7ba;
+    }
+} */
+/*---------------------------------section.popular banner statrs here----------------------------*/
+.banner-half{
+    width: 100%;
+    /* height: 100vh; */
+}
+.part-img{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-img1{
+    width: 50%;
+    height: 50vh;
+    border-radius: 15px;
+    background: url(..//images/b1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 50px;
+}
+.main-para{
+    padding-left: 44px;
+}
+
+.main-para h4{
+    font-size: 1.5rem;
+    padding: 35px 0px;
+}
+.main-para h1{
+    font-size: 2rem;
+    letter-spacing: -2px;
+}
+.main-para{
+    color: #FFF;
+}
+.main-img2{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.half-img1{
+    width: 100%;
+    height: 24vh;
+    border-radius: 15px;
+    background: url(..//images/s1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 24px;
+    
+}
+.half-img2{
+    width: 100%;
+    height: 24vh;
+    border-radius: 15px;
+    background: url(..//images/s2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* <!-- ------------------------setion.banner-half ends here---------------------- ----> */
+    /* <!-------------------------- section.HAMBERGER starts from here --------------------> */
+    .hamberger{
+        width: 100%;
+        /* height: 100vh; */
+    }
+    .center-text{
+        width: 80%;
+        margin:  auto;
+        text-align: center;
+
+    }
+    .center-text h3{
+        background-color: #ffc045;
+        color: #3d2514;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: -3px;
+        word-spacing: 1px;
+        text-transform:capitalize;
+        padding: 18px;
+        display: inline-block;
+    }
+    .center-text h1{
+        color: #3d2514;
+        font-size: 3.5rem;
+        font-weight: bold;
+        letter-spacing: -8px;
+        word-spacing: 12px;
+        padding: 30px 0px;
+    }
+    .center-text p{
+        color: #3d2514;
+        font-size: 1.2rem;
+        line-height: 34px;
+    }
+    .hamberger-pic{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hamberger-same{
+        width: 33.33%;
+    }
+    .hamberger-same1{
+        width: 38%;
+    }
+    .hamberger-same1 img{
+        width: 100%;
+        height: auto;
+    }
+    .hamberger-same img{
+        width: 100%;
+        height: 320px;
+    }
+    .btn-3{
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .para-same{
+        width: 29%;
+        text-align: center;
+
+    }
+    .para-same h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+        letter-spacing: -5px;
+        font-weight: bold;
+        color: #3d2514;
+    }
+    .para-same p{
+        font-size: 1.5rem;
+        padding: 40px;
+        color: #3d2514;
+    }
+    .para-same h2{
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #fff;
+        background-color: #bf2222;
+        padding: 12px 12px;
+    }
+    .para-same h2:hover{
+        background-color: #ffc045;
+    }
+    .multi-img{
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .multi-img-para{
+        width: 80%;
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 7px 8px 10px black;
+    }
+    .lipsum-para{
+        width: 50%;
+    }
+    .lipsum-para h2{
+        font-size: 1.4rem;
+        letter-spacing: -2px;
+        word-spacing: 7px;
+        color: #3d2514;
+    }
+    .lipsum-para h1{
+        font-size: 2.6rem;
+        font-weight: bold;
+        letter-spacing: -3px;
+        color: #3d2514;
+        padding-bottom: 15px;
+    }
+    .lipsum-para p{
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+
+    .shirt{
+        width: 50%;
+    }
+    .shirt img{
+        width: 100%;
+    }
+    .reserve-table{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .bottle-burger{
+        width: 20%;
+        margin-bottom: 100px;
+    }
+    .bottle{
+        width: 50%;
+    }
+    .bottle img{
+        width: 100%;
+    }
+    .small-burger{
+        width: 30%;
+        margin: 32px 0px 0px 32px;
+        text-align: start;
+    }
+    .small-burger img{
+        width: 100%;
+    }
+    .reservation-form{
+        width: 60%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .reservation-form h2{
+        font-size: 1.4rem;
+        letter-spacing: -2px;
+        color: #3d2514;
+    }
+    .reservation-form h1{
+        font-size: 3.5rem;
+        /* font-weight: bold; */
+        letter-spacing: -8px;
+        word-spacing: 20px;
+        margin: 25px;
+        color:#3d2514;
+    }
+    .input-form{
+        width: 100%;    
+    }
+    .input-form input{
+        width: 45%;
+        padding: 15px 0px;
+        margin: 15px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        
+    }
+    .input-form select{
+        width: 45%;
+        padding: 25px 0px;
+        margin: 15px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        
+    }
+    .button{
+        width: 45%;
+        padding: 15px 0px;
+        margin: 15px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: #bf2222;
+        color: #fff;
+    }
+    /* .plate{
+        margin-bottom: 0px;
+        width: 10%;
+    } */
+
+
+
+    .foot-img{
+        width: 100%;
+        height: 100vh;
+        background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/footer-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .foot-logo{
+        width: 50%;
+        color: #fff;
+    }
+    .foot-logo img{
+        width: 15%;
+        margin: -30px 24px 0px 12px;
+    }
+    .foot-logo span{
+        font-size: 5rem;
+        /* text-align: center; */
+        vertical-align: top;
+        font-weight: bold;
+        letter-spacing: -10px;
+        word-spacing: 6px;
+    }
+    .foot-logo p{
+        margin: 50px 0px;
+        font-size: 1.6rem;
+    }
+    .foot-logo .copy{
+        margin-top: 100px;
+    }
+
+    .address{
+        display: block;
+        color: #fff;
+        font-size: 2.0rem;
+        font-weight: bold;
+    }
+    .envelop{
+        padding: 24px 0px;
+    }
+    .envelop i{
+        padding: 0px 20px ;
+    }
+    .location i{
+        padding: 0px 20px ;
+    }
+    .all-icon i{
+        font-size: 3rem;
+        margin: 30px 12px;
+        color: #fff;
+    }
+    .fa-facebook:hover{
+            color:  #3b5998;
+    }
+    .fa-linkedin:hover{
+        color: #0072b1 ;
+    }
+    .fa-instagram:hover{
+        color:  #d62976 ;
+    }
+    .fa-whatsapp:hover{
+        color: 	#075E54;
+    }
+    .fa-twitter:hover{
+        color: 	#1DA1F2;
+    }
